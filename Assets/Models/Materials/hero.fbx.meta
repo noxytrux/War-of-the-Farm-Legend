@@ -1,0 +1,359 @@
+fileFormatVersion: 2
+guid: 3926d9ccdd2ffa546a1ef744135e2a50
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: ahnd_R
+    100002: arm_L
+    100004: arm_R
+    100006: foot1_L
+    100008: foot1_R
+    100010: foot2_L
+    100012: foot2_R
+    100014: hand_L
+    100016: head
+    100018: Hero
+    100020: //RootNode
+    100022: HeroArmature
+    100024: leg1_L
+    100026: leg1_R
+    100028: leg2_L
+    100030: leg2_R
+    100032: master
+    100034: torso1
+    100036: torso2
+    400000: ahnd_R
+    400002: arm_L
+    400004: arm_R
+    400006: foot1_L
+    400008: foot1_R
+    400010: foot2_L
+    400012: foot2_R
+    400014: hand_L
+    400016: head
+    400018: Hero
+    400020: //RootNode
+    400022: HeroArmature
+    400024: leg1_L
+    400026: leg1_R
+    400028: leg2_L
+    400030: leg2_R
+    400032: master
+    400034: torso1
+    400036: torso2
+    4300000: Hero
+    7400000: Default Take
+    7400002: Hit
+    7400004: Run
+    7400006: Strafe
+    9500000: //RootNode
+    13700000: Hero
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hero
+        weight: 1
+      - path: HeroArmature
+        weight: 1
+      - path: HeroArmature/master
+        weight: 1
+      - path: HeroArmature/master/leg1_L
+        weight: 1
+      - path: HeroArmature/master/leg1_L/leg2_L
+        weight: 1
+      - path: HeroArmature/master/leg1_L/leg2_L/foot1_L
+        weight: 1
+      - path: HeroArmature/master/leg1_L/leg2_L/foot1_L/foot2_L
+        weight: 1
+      - path: HeroArmature/master/leg1_R
+        weight: 1
+      - path: HeroArmature/master/leg1_R/leg2_R
+        weight: 1
+      - path: HeroArmature/master/leg1_R/leg2_R/foot1_R
+        weight: 1
+      - path: HeroArmature/master/leg1_R/leg2_R/foot1_R/foot2_R
+        weight: 1
+      - path: HeroArmature/master/torso1
+        weight: 1
+      - path: HeroArmature/master/torso1/torso2
+        weight: 1
+      - path: HeroArmature/master/torso1/torso2/arm_L
+        weight: 1
+      - path: HeroArmature/master/torso1/torso2/arm_L/hand_L
+        weight: 1
+      - path: HeroArmature/master/torso1/torso2/arm_R
+        weight: 1
+      - path: HeroArmature/master/torso1/torso2/arm_R/ahnd_R
+        weight: 1
+      - path: HeroArmature/master/torso1/torso2/head
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Hit
+      takeName: Hit
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hero
+        weight: 1
+      - path: HeroArmature
+        weight: 1
+      - path: HeroArmature/master
+        weight: 1
+      - path: HeroArmature/master/leg1_L
+        weight: 1
+      - path: HeroArmature/master/leg1_L/leg2_L
+        weight: 1
+      - path: HeroArmature/master/leg1_L/leg2_L/foot1_L
+        weight: 1
+      - path: HeroArmature/master/leg1_L/leg2_L/foot1_L/foot2_L
+        weight: 1
+      - path: HeroArmature/master/leg1_R
+        weight: 1
+      - path: HeroArmature/master/leg1_R/leg2_R
+        weight: 1
+      - path: HeroArmature/master/leg1_R/leg2_R/foot1_R
+        weight: 1
+      - path: HeroArmature/master/leg1_R/leg2_R/foot1_R/foot2_R
+        weight: 1
+      - path: HeroArmature/master/torso1
+        weight: 1
+      - path: HeroArmature/master/torso1/torso2
+        weight: 1
+      - path: HeroArmature/master/torso1/torso2/arm_L
+        weight: 1
+      - path: HeroArmature/master/torso1/torso2/arm_L/hand_L
+        weight: 1
+      - path: HeroArmature/master/torso1/torso2/arm_R
+        weight: 1
+      - path: HeroArmature/master/torso1/torso2/arm_R/ahnd_R
+        weight: 1
+      - path: HeroArmature/master/torso1/torso2/head
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run
+      takeName: Run
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hero
+        weight: 1
+      - path: HeroArmature
+        weight: 1
+      - path: HeroArmature/master
+        weight: 1
+      - path: HeroArmature/master/leg1_L
+        weight: 1
+      - path: HeroArmature/master/leg1_L/leg2_L
+        weight: 1
+      - path: HeroArmature/master/leg1_L/leg2_L/foot1_L
+        weight: 1
+      - path: HeroArmature/master/leg1_L/leg2_L/foot1_L/foot2_L
+        weight: 1
+      - path: HeroArmature/master/leg1_R
+        weight: 1
+      - path: HeroArmature/master/leg1_R/leg2_R
+        weight: 1
+      - path: HeroArmature/master/leg1_R/leg2_R/foot1_R
+        weight: 1
+      - path: HeroArmature/master/leg1_R/leg2_R/foot1_R/foot2_R
+        weight: 1
+      - path: HeroArmature/master/torso1
+        weight: 1
+      - path: HeroArmature/master/torso1/torso2
+        weight: 1
+      - path: HeroArmature/master/torso1/torso2/arm_L
+        weight: 1
+      - path: HeroArmature/master/torso1/torso2/arm_L/hand_L
+        weight: 1
+      - path: HeroArmature/master/torso1/torso2/arm_R
+        weight: 1
+      - path: HeroArmature/master/torso1/torso2/arm_R/ahnd_R
+        weight: 1
+      - path: HeroArmature/master/torso1/torso2/head
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Strafe
+      takeName: Strafe
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hero
+        weight: 1
+      - path: HeroArmature
+        weight: 1
+      - path: HeroArmature/master
+        weight: 1
+      - path: HeroArmature/master/leg1_L
+        weight: 1
+      - path: HeroArmature/master/leg1_L/leg2_L
+        weight: 1
+      - path: HeroArmature/master/leg1_L/leg2_L/foot1_L
+        weight: 1
+      - path: HeroArmature/master/leg1_L/leg2_L/foot1_L/foot2_L
+        weight: 1
+      - path: HeroArmature/master/leg1_R
+        weight: 1
+      - path: HeroArmature/master/leg1_R/leg2_R
+        weight: 1
+      - path: HeroArmature/master/leg1_R/leg2_R/foot1_R
+        weight: 1
+      - path: HeroArmature/master/leg1_R/leg2_R/foot1_R/foot2_R
+        weight: 1
+      - path: HeroArmature/master/torso1
+        weight: 1
+      - path: HeroArmature/master/torso1/torso2
+        weight: 1
+      - path: HeroArmature/master/torso1/torso2/arm_L
+        weight: 1
+      - path: HeroArmature/master/torso1/torso2/arm_L/hand_L
+        weight: 1
+      - path: HeroArmature/master/torso1/torso2/arm_R
+        weight: 1
+      - path: HeroArmature/master/torso1/torso2/arm_R/ahnd_R
+        weight: 1
+      - path: HeroArmature/master/torso1/torso2/head
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

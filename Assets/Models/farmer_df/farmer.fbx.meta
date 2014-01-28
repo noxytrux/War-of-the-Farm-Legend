@@ -1,0 +1,555 @@
+fileFormatVersion: 2
+guid: ee48dcb7d23964a4a9a68ce7a176f00a
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: arm1_L
+    100002: arm1_R
+    100004: arm2_L
+    100006: arm2_R
+    100008: arm3_L
+    100010: arm3_R
+    100012: control_L
+    100014: control_R
+    100016: Farmer
+    100018: //RootNode
+    100020: FarmerArmature
+    100022: foot1_L
+    100024: foot1_R
+    100026: foot2_L
+    100028: foot2_R
+    100030: footrot_L
+    100032: footrot_R
+    100034: hand_L
+    100036: hand_R
+    100038: head
+    100040: knee_L
+    100042: knee_R
+    100044: leg1_L
+    100046: leg1_R
+    100048: leg2_L
+    100050: leg2_R
+    100052: master
+    100054: neck
+    100056: torso1
+    100058: torso2
+    400000: arm1_L
+    400002: arm1_R
+    400004: arm2_L
+    400006: arm2_R
+    400008: arm3_L
+    400010: arm3_R
+    400012: control_L
+    400014: control_R
+    400016: Farmer
+    400018: //RootNode
+    400020: FarmerArmature
+    400022: foot1_L
+    400024: foot1_R
+    400026: foot2_L
+    400028: foot2_R
+    400030: footrot_L
+    400032: footrot_R
+    400034: hand_L
+    400036: hand_R
+    400038: head
+    400040: knee_L
+    400042: knee_R
+    400044: leg1_L
+    400046: leg1_R
+    400048: leg2_L
+    400050: leg2_R
+    400052: master
+    400054: neck
+    400056: torso1
+    400058: torso2
+    4300000: Farmer
+    7400000: Default Take
+    7400002: Death
+    7400004: Dig
+    7400006: Idle
+    7400008: Walk
+    9500000: //RootNode
+    13700000: Farmer
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Farmer
+        weight: 1
+      - path: FarmerArmature
+        weight: 1
+      - path: FarmerArmature/control_L
+        weight: 1
+      - path: FarmerArmature/control_L/foot1_L
+        weight: 1
+      - path: FarmerArmature/control_L/footrot_L
+        weight: 1
+      - path: FarmerArmature/control_L/footrot_L/foot2_L
+        weight: 1
+      - path: FarmerArmature/control_L/knee_L
+        weight: 1
+      - path: FarmerArmature/control_R
+        weight: 1
+      - path: FarmerArmature/control_R/foot1_R
+        weight: 1
+      - path: FarmerArmature/control_R/footrot_R
+        weight: 1
+      - path: FarmerArmature/control_R/footrot_R/foot2_R
+        weight: 1
+      - path: FarmerArmature/control_R/knee_R
+        weight: 1
+      - path: FarmerArmature/hand_L
+        weight: 1
+      - path: FarmerArmature/hand_R
+        weight: 1
+      - path: FarmerArmature/head
+        weight: 1
+      - path: FarmerArmature/master
+        weight: 1
+      - path: FarmerArmature/master/leg1_L
+        weight: 1
+      - path: FarmerArmature/master/leg1_L/leg2_L
+        weight: 1
+      - path: FarmerArmature/master/leg1_R
+        weight: 1
+      - path: FarmerArmature/master/leg1_R/leg2_R
+        weight: 1
+      - path: FarmerArmature/master/torso1
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2/arm1_L
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2/arm1_L/arm2_L
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2/arm1_L/arm2_L/arm3_L
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2/arm1_R
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2/arm1_R/arm2_R
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2/arm1_R/arm2_R/arm3_R
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2/neck
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death
+      takeName: Death
+      firstFrame: 0
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Farmer
+        weight: 1
+      - path: FarmerArmature
+        weight: 1
+      - path: FarmerArmature/control_L
+        weight: 1
+      - path: FarmerArmature/control_L/foot1_L
+        weight: 1
+      - path: FarmerArmature/control_L/footrot_L
+        weight: 1
+      - path: FarmerArmature/control_L/footrot_L/foot2_L
+        weight: 1
+      - path: FarmerArmature/control_L/knee_L
+        weight: 1
+      - path: FarmerArmature/control_R
+        weight: 1
+      - path: FarmerArmature/control_R/foot1_R
+        weight: 1
+      - path: FarmerArmature/control_R/footrot_R
+        weight: 1
+      - path: FarmerArmature/control_R/footrot_R/foot2_R
+        weight: 1
+      - path: FarmerArmature/control_R/knee_R
+        weight: 1
+      - path: FarmerArmature/hand_L
+        weight: 1
+      - path: FarmerArmature/hand_R
+        weight: 1
+      - path: FarmerArmature/head
+        weight: 1
+      - path: FarmerArmature/master
+        weight: 1
+      - path: FarmerArmature/master/leg1_L
+        weight: 1
+      - path: FarmerArmature/master/leg1_L/leg2_L
+        weight: 1
+      - path: FarmerArmature/master/leg1_R
+        weight: 1
+      - path: FarmerArmature/master/leg1_R/leg2_R
+        weight: 1
+      - path: FarmerArmature/master/torso1
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2/arm1_L
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2/arm1_L/arm2_L
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2/arm1_L/arm2_L/arm3_L
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2/arm1_R
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2/arm1_R/arm2_R
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2/arm1_R/arm2_R/arm3_R
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2/neck
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dig
+      takeName: Dig
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Farmer
+        weight: 1
+      - path: FarmerArmature
+        weight: 1
+      - path: FarmerArmature/control_L
+        weight: 1
+      - path: FarmerArmature/control_L/foot1_L
+        weight: 1
+      - path: FarmerArmature/control_L/footrot_L
+        weight: 1
+      - path: FarmerArmature/control_L/footrot_L/foot2_L
+        weight: 1
+      - path: FarmerArmature/control_L/knee_L
+        weight: 1
+      - path: FarmerArmature/control_R
+        weight: 1
+      - path: FarmerArmature/control_R/foot1_R
+        weight: 1
+      - path: FarmerArmature/control_R/footrot_R
+        weight: 1
+      - path: FarmerArmature/control_R/footrot_R/foot2_R
+        weight: 1
+      - path: FarmerArmature/control_R/knee_R
+        weight: 1
+      - path: FarmerArmature/hand_L
+        weight: 1
+      - path: FarmerArmature/hand_R
+        weight: 1
+      - path: FarmerArmature/head
+        weight: 1
+      - path: FarmerArmature/master
+        weight: 1
+      - path: FarmerArmature/master/leg1_L
+        weight: 1
+      - path: FarmerArmature/master/leg1_L/leg2_L
+        weight: 1
+      - path: FarmerArmature/master/leg1_R
+        weight: 1
+      - path: FarmerArmature/master/leg1_R/leg2_R
+        weight: 1
+      - path: FarmerArmature/master/torso1
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2/arm1_L
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2/arm1_L/arm2_L
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2/arm1_L/arm2_L/arm3_L
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2/arm1_R
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2/arm1_R/arm2_R
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2/arm1_R/arm2_R/arm3_R
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2/neck
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Farmer
+        weight: 1
+      - path: FarmerArmature
+        weight: 1
+      - path: FarmerArmature/control_L
+        weight: 1
+      - path: FarmerArmature/control_L/foot1_L
+        weight: 1
+      - path: FarmerArmature/control_L/footrot_L
+        weight: 1
+      - path: FarmerArmature/control_L/footrot_L/foot2_L
+        weight: 1
+      - path: FarmerArmature/control_L/knee_L
+        weight: 1
+      - path: FarmerArmature/control_R
+        weight: 1
+      - path: FarmerArmature/control_R/foot1_R
+        weight: 1
+      - path: FarmerArmature/control_R/footrot_R
+        weight: 1
+      - path: FarmerArmature/control_R/footrot_R/foot2_R
+        weight: 1
+      - path: FarmerArmature/control_R/knee_R
+        weight: 1
+      - path: FarmerArmature/hand_L
+        weight: 1
+      - path: FarmerArmature/hand_R
+        weight: 1
+      - path: FarmerArmature/head
+        weight: 1
+      - path: FarmerArmature/master
+        weight: 1
+      - path: FarmerArmature/master/leg1_L
+        weight: 1
+      - path: FarmerArmature/master/leg1_L/leg2_L
+        weight: 1
+      - path: FarmerArmature/master/leg1_R
+        weight: 1
+      - path: FarmerArmature/master/leg1_R/leg2_R
+        weight: 1
+      - path: FarmerArmature/master/torso1
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2/arm1_L
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2/arm1_L/arm2_L
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2/arm1_L/arm2_L/arm3_L
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2/arm1_R
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2/arm1_R/arm2_R
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2/arm1_R/arm2_R/arm3_R
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2/neck
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: Walk
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Farmer
+        weight: 1
+      - path: FarmerArmature
+        weight: 1
+      - path: FarmerArmature/control_L
+        weight: 1
+      - path: FarmerArmature/control_L/foot1_L
+        weight: 1
+      - path: FarmerArmature/control_L/footrot_L
+        weight: 1
+      - path: FarmerArmature/control_L/footrot_L/foot2_L
+        weight: 1
+      - path: FarmerArmature/control_L/knee_L
+        weight: 1
+      - path: FarmerArmature/control_R
+        weight: 1
+      - path: FarmerArmature/control_R/foot1_R
+        weight: 1
+      - path: FarmerArmature/control_R/footrot_R
+        weight: 1
+      - path: FarmerArmature/control_R/footrot_R/foot2_R
+        weight: 1
+      - path: FarmerArmature/control_R/knee_R
+        weight: 1
+      - path: FarmerArmature/hand_L
+        weight: 1
+      - path: FarmerArmature/hand_R
+        weight: 1
+      - path: FarmerArmature/head
+        weight: 1
+      - path: FarmerArmature/master
+        weight: 1
+      - path: FarmerArmature/master/leg1_L
+        weight: 1
+      - path: FarmerArmature/master/leg1_L/leg2_L
+        weight: 1
+      - path: FarmerArmature/master/leg1_R
+        weight: 1
+      - path: FarmerArmature/master/leg1_R/leg2_R
+        weight: 1
+      - path: FarmerArmature/master/torso1
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2/arm1_L
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2/arm1_L/arm2_L
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2/arm1_L/arm2_L/arm3_L
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2/arm1_R
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2/arm1_R/arm2_R
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2/arm1_R/arm2_R/arm3_R
+        weight: 1
+      - path: FarmerArmature/master/torso1/torso2/neck
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 

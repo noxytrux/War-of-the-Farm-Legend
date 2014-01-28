@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: BloodEffectAnim4
+  serializedVersion: 4
+  m_AnimationType: 2
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: .212219596, y: .212219596, z: .212219596}
+        inSlope: {x: .524598241, y: .524598241, z: .524598241}
+        outSlope: {x: .524598241, y: .524598241, z: .524598241}
+        tangentMode: 0
+      - time: .25
+        value: {x: .343369156, y: .343369156, z: .343369156}
+        inSlope: {x: .524598241, y: .524598241, z: .524598241}
+        outSlope: {x: .524598241, y: .524598241, z: .524598241}
+        tangentMode: 3
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: 
+  m_FloatCurves: []
+  m_PPtrCurves:
+  - curve:
+    - time: 0
+      value: {fileID: 21300000, guid: 8f9c8a9d573124a4e917233497765dec, type: 3}
+    - time: .0500000007
+      value: {fileID: 21300000, guid: 1a70c36370fd3974cb180fa11e65031c, type: 3}
+    - time: .100000001
+      value: {fileID: 21300000, guid: 7ba8a703d254783458deef508adcd2b9, type: 3}
+    - time: .150000006
+      value: {fileID: 21300000, guid: 360c8a805cdbf034fb1c034d08ec16c9, type: 3}
+    - time: .200000003
+      value: {fileID: 21300000, guid: 4c294601327858b489da6a0915beac32, type: 3}
+    - time: .25
+      value: {fileID: 21300000, guid: 46a2e3df67dbafa409a09e7fb76bb7d8, type: 3}
+    attribute: m_Sprite
+    path: 
+    classID: 212
+    script: {fileID: 0}
+  m_SampleRate: 20
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: .300000012
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .212219596
+        inSlope: .524598241
+        outSlope: .524598241
+        tangentMode: 10
+      - time: .25
+        value: .343369156
+        inSlope: .524598241
+        outSlope: .524598241
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.x
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .212219596
+        inSlope: .524598241
+        outSlope: .524598241
+        tangentMode: 10
+      - time: .25
+        value: .343369156
+        inSlope: .524598241
+        outSlope: .524598241
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.y
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .212219596
+        inSlope: .524598241
+        outSlope: .524598241
+        tangentMode: 10
+      - time: .25
+        value: .343369156
+        inSlope: .524598241
+        outSlope: .524598241
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.z
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  m_EulerEditorCurves: []
+  m_Events: []
